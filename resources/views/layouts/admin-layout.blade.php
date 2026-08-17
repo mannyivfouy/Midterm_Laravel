@@ -9,10 +9,10 @@
 </head>
 <body class="bg-gray-100">
     <div class="flex min-h-screen">
-        @include('components.sidebar')
+        @include('components.admin.sidebar')
 
         <div class="flex flex-1 flex-col">
-            @include('components.navbar')
+            @include('components.admin.navbar')
 
             <main class="flex-1 p-4">
                 @yield('content')
