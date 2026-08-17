@@ -1,0 +1,49 @@
+<aside class="w-64 shrink-0 bg-white border-r border-gray-200">
+
+    {{-- Logo --}}
+    <div class="flex h-16 items-center border-b border-gray-200 px-6">
+        <h1 class="text-xl font-bold text-indigo-600">
+            AdminPanel
+        </h1>
+    </div>
+
+    {{-- Navigation --}}
+    <nav class="p-4">
+
+        <a href="/dashboard"
+            class="mb-1 flex items-center rounded-lg bg-indigo-50 px-3 py-2.5 text-sm font-medium text-indigo-600">
+            Dashboard
+        </a>
+
+        <a href="/products"
+            class="mb-1 flex items-center rounded-lg px-3 py-2.5 text-sm font-medium text-gray-600 hover:bg-gray-100">
+            Products
+        </a>
+
+        <a href="/categories"
+            class="mb-1 flex items-center rounded-lg px-3 py-2.5 text-sm font-medium text-gray-600 hover:bg-gray-100">
+            Categories
+        </a>
+
+        <a href="/customers"
+            class="mb-1 flex items-center rounded-lg px-3 py-2.5 text-sm font-medium text-gray-600 hover:bg-gray-100">
+            Customers
+        </a>
+
+        <p class="mb-3 mt-8 px-3 text-xs font-semibold uppercase text-gray-400">
+            Management
+        </p>
+
+        <a href="/sales"
+            class="mb-1 flex items-center rounded-lg px-3 py-2.5 text-sm font-medium text-gray-600 hover:bg-gray-100">
+            Sales
+        </a>
+
+        <a href="/settings"
+            class="mb-1 flex items-center rounded-lg px-3 py-2.5 text-sm font-medium text-gray-600 hover:bg-gray-100">
+            Settings
+        </a>
+
+    </nav>
+
+</aside>
