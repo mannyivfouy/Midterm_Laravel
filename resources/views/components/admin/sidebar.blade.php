@@ -3,7 +3,7 @@
     {{-- Logo --}}
     <div class="flex h-16 items-center border-b border-gray-200 px-6">
         <h1 class="text-xl font-bold text-indigo-600">
-            AdminPanel
+            Administrator Panel
         </h1>
     </div>
 
