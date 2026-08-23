@@ -28,26 +28,11 @@
             Categories
         </a>
 
-        {{--
-        <a href="/customers"
-            class="mb-1 flex items-center rounded-lg px-3 py-2.5 text-sm font-medium text-gray-600 hover:bg-gray-100">
-            Customers
+        <a href="/admin/users"
+            class="mb-1 flex items-center rounded-lg px-3 py-2.5 text-sm font-medium text-gray-600 hover:bg-gray-100
+            {{ request()->is('admin/users*') ? 'bg-indigo-50 text-indigo-600' : 'text-gray-600 hover:bg-gray-100' }}">
+            Users
         </a>
-
-        <p class="mb-3 mt-8 px-3 text-xs font-semibold uppercase text-gray-400">
-            Management
-        </p>
-
-        <a href="/sales"
-            class="mb-1 flex items-center rounded-lg px-3 py-2.5 text-sm font-medium text-gray-600 hover:bg-gray-100">
-            Sales
-        </a>
-
-        <a href="/settings"
-            class="mb-1 flex items-center rounded-lg px-3 py-2.5 text-sm font-medium text-gray-600 hover:bg-gray-100">
-            Settings
-        </a> --}}
-
     </nav>
 
 </aside>
