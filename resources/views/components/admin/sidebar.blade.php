@@ -22,11 +22,13 @@
             Products
         </a>
 
-        {{-- <a href="/categories"
-            class="mb-1 flex items-center rounded-lg px-3 py-2.5 text-sm font-medium text-gray-600 hover:bg-gray-100">
+        <a href="/admin/categories"
+            class="mb-1 flex items-center rounded-lg px-3 py-2.5 text-sm font-medium text-gray-600 hover:bg-gray-100
+            {{ request()->is('admin/categories*') ? 'bg-indigo-50 text-indigo-600' : 'text-gray-600 hover:bg-gray-100' }}">
             Categories
         </a>
 
+        {{--
         <a href="/customers"
             class="mb-1 flex items-center rounded-lg px-3 py-2.5 text-sm font-medium text-gray-600 hover:bg-gray-100">
             Customers

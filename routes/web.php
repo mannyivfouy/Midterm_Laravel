@@ -10,4 +10,8 @@ Route::prefix("admin")->group(function () {
     Route::get("/products", function () {
         return view("admin.products.index");
     });
+
+    Route::get("/categories", function () {
+      return view("admin.categories.index");
+    });
 });
