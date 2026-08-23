@@ -3,7 +3,7 @@
     {{-- Page title --}}
     <div>
         <h2 class="text-lg font-semibold text-gray-800">
-            Dashboard
+            {{-- Dashboard --}}
         </h2>
     </div>
 

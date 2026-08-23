@@ -10,17 +10,19 @@
     {{-- Navigation --}}
     <nav class="p-4">
 
-        <a href="/dashboard"
-            class="mb-1 flex items-center rounded-lg bg-indigo-50 px-3 py-2.5 text-sm font-medium text-indigo-600">
+        <a href="/admin/dashboard"
+            class="mb-1 flex items-center rounded-lg px-3 py-2.5 text-sm font-medium text-gray-600 hover:bg-gray-100
+            {{ request()->is('admin/dashboard') ? 'bg-indigo-50 text-indigo-600' : 'text-gray-600 hover:bg-gray-100' }}">
             Dashboard
         </a>
 
-        <a href="/products"
-            class="mb-1 flex items-center rounded-lg px-3 py-2.5 text-sm font-medium text-gray-600 hover:bg-gray-100">
+        <a href="/admin/products"
+            class="mb-1 flex items-center rounded-lg px-3 py-2.5 text-sm font-medium text-gray-600 hover:bg-gray-100
+            {{ request()->is('admin/products*') ? 'bg-indigo-50 text-indigo-600' : 'text-gray-600 hover:bg-gray-100' }}">
             Products
         </a>
 
-        <a href="/categories"
+        {{-- <a href="/categories"
             class="mb-1 flex items-center rounded-lg px-3 py-2.5 text-sm font-medium text-gray-600 hover:bg-gray-100">
             Categories
         </a>
@@ -42,7 +44,7 @@
         <a href="/settings"
             class="mb-1 flex items-center rounded-lg px-3 py-2.5 text-sm font-medium text-gray-600 hover:bg-gray-100">
             Settings
-        </a>
+        </a> --}}
 
     </nav>
 
