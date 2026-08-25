@@ -26,10 +26,10 @@
             </div>
 
             <div>
-                <button
+                <a type="button" href="/admin/products/create"
                     class="cursor-pointer rounded-lg bg-indigo-600 px-4 py-2 text-md font-semibold text-white hover:bg-indigo-700">
                     Add New Product
-                </button>
+                </a>
             </div>
 
         </div>
