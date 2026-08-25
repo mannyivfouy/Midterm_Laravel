@@ -102,17 +102,17 @@
                 {{-- Form Actions --}}
                 <div class="mt-8 flex items-center justify-end gap-3 border-t border-gray-100 pt-6">
 
-                    <a href="#"
+                    <a href="/admin/categories"
                         class="rounded-lg border border-gray-300 bg-white px-5 py-2.5 text-sm font-semibold text-gray-700
                         transition hover:bg-gray-50">
                         Cancel
                     </a>
 
-                    <button type="submit"
+                    <a type="submit" href="/admin/categories"
                         class="cursor-pointer rounded-lg bg-indigo-600 px-5 py-2.5 text-sm font-semibold text-white
                         transition hover:bg-indigo-700">
                         Create Category
-                    </button>
+                    </a>
 
                 </div>
 
