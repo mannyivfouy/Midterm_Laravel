@@ -155,24 +155,3 @@
     </div>
 
 </div>
-
-
-{{-- Password Toggle --}}
-<script>
-    const passwordInput = document.getElementById('password');
-    const togglePassword = document.getElementById('togglePassword');
-    const eyeIcon = document.getElementById('eyeIcon');
-
-    togglePassword.addEventListener('click', () => {
-        const isPassword = passwordInput.type === 'password';
-
-        passwordInput.type = isPassword ? 'text' : 'password';
-
-        eyeIcon.setAttribute(
-            'data-lucide',
-            isPassword ? 'eye-off' : 'eye'
-        );
-
-        lucide.createIcons();
-    });
-</script>
