@@ -1,4 +1,4 @@
-<aside class="w-64 shrink-0 border-r border-gray-200 bg-white">
+<aside class="w-64 shrink-0 border-r border-gray-200 bg-white flex h-screen flex-col">
 
     {{-- Logo --}}
     <div class="flex h-16 items-center border-b border-gray-200 px-6">
@@ -8,7 +8,7 @@
     </div>
 
     {{-- Navigation --}}
-    <nav class="p-4">
+    <nav class="flex flex-1 flex-col p-4">
 
         {{-- Dashboard --}}
         <a href="/admin/dashboard"
@@ -137,6 +137,13 @@
 
         </details>
 
+
+        <div class="mt-auto">
+            <a href="/"
+                class="flex items-center justify-center gap-3 rounded-lg bg-pink-600 px-3 py-2 text-sm font-medium text-white transition hover:bg-pink-700">
+                <span>Logout</span>
+            </a>
+        </div>
     </nav>
 
 </aside>
